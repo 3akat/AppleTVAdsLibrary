@@ -1,0 +1,11 @@
+framework module AppleTVAds {
+  umbrella header "AppleTVAds.h"
+
+  export *
+  module * { export * }
+}
+
+module AppleTVAds.Swift {
+  header "AppleTVAds-Swift.h"
+  requires objc
+}
