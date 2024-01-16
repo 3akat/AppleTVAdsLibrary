@@ -140,6 +140,10 @@ open class TVAdsViewController: UIViewController, IMAAdsLoaderDelegate, IMAAdsMa
             adsLoader.contentComplete()
             adsManager.destroy()
             videoStatus = VideoStatus.complete
+        } else if event.type == IMAAdEventType.PAUSE {
+            adsLoader.contentComplete()
+            adsManager.destroy()
+            videoStatus = VideoStatus.complete
         }
     }
     
