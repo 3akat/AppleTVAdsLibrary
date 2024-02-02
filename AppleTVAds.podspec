@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'AppleTVAds'
-  spec.version          = '0.0.2'
+  spec.version          = '0.0.3'
   spec.summary          = 'AppleTVAds'
   spec.description      = 'AppleTV pausable Ads'
 
