@@ -144,6 +144,7 @@ open class TVAdsViewController: UIViewController, IMAAdsLoaderDelegate, IMAAdsMa
             adsLoader.contentComplete()
             adsManager.destroy()
             videoStatus = VideoStatus.complete
+            showContentPlayer()
         }
     }
     
