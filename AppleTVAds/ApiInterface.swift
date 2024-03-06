@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+public protocol ApiInterface{
+    
+    func openSDK();
+    
+}
